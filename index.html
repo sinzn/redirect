@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    const routes = {
+      "/": "https://sinzn.notion.site/Shivam-Singh-3183a879b42f80818cdbe81fae69d86d",
+      "/g": "https://github.com/sinzn",
+      "/s": "https://shivam-singh.com"
+    };
+    const path = window.location.pathname.replace(/\/$/, "");
+    if (routes[path]) {
+      window.location.href = routes[path];
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
